@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "user": "Zottet",
+    "text": "Bem-vindo ao Zottet! Primeiro clipe de teste.",
+    "media": "/media/placeholder_short.mp4",
+    "mediaType": "short",
+    "likes": 2,
+    "comments": [
+      {
+        "user": "Player1",
+        "text": "\u00d3timo!"
+      }
+    ],
+    "game": "valorant",
+    "created": 1762318487
+  }
+]

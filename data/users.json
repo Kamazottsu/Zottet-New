@@ -1,0 +1,12 @@
+[
+  {
+    "id": "u1",
+    "name": "Zottet",
+    "email": "zottet@example.com",
+    "avatar": "/images/avatar.png",
+    "games": [
+      "valorant"
+    ],
+    "bio": "Coach de Valorant"
+  }
+]

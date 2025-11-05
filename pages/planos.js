@@ -1,0 +1,4 @@
+
+import Header from '../components/Header'; 
+export default function Plans(){ async function buy(priceId){ const res = await fetch('/api/stripe/create-checkout-session',{method:'POST',headers:{'Content-Type':'application/json'},body: JSON.stringify({priceId})}); const data = await res.json(); if(data.url) window.location = data.url; else alert('Erro: '+(data.error||'unknown')) }
+  return (<div className='container'><Header/><div className='card'><h2>Planos</h2><div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:12}}><div className='card'><h4>Mensal</h4><p>R$49</p><button className='btn' onClick={()=>buy('price_monthly')}>Assinar</button></div><div className='card'><h4>Anual</h4><p>R$499</p><button className='btn' onClick={()=>buy('price_annual')}>Assinar</button></div></div></div></div>) }

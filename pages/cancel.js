@@ -1,0 +1,1 @@
+export default function Cancel(){return <div style={{padding:40}}><h1>Pagamento cancelado</h1></div>}
